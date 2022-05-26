@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/rails,ruby,rubymine+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=rails,ruby,rubymine+all
 
+*.keep
+/tmp/cache/*
 ### Rails ###
 *.rbc
 capybara-*.html
@@ -211,5 +213,6 @@ fabric.properties
 
 !.idea/codeStyles
 !.idea/runConfigurations
+
 
 # End of https://www.toptal.com/developers/gitignore/api/rails,ruby,rubymine+all
